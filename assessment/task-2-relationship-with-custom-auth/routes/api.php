@@ -10,6 +10,7 @@ use App\Http\Controllers\TransactionController;
 use App\Http\Controllers\OrderItemController;
 use App\Http\Controllers\CartItemController;
 
+
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
